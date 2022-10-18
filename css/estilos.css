@@ -33,6 +33,12 @@ text-align: center;
   vertical-align: top;
 }
 
+audio {
+  color: #AF7AC5;
+}
+
 .marco{
-width:
+width:30%;
+height: auto;
+object-fit: scale-down;
 }
