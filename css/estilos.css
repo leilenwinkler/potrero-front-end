@@ -1,0 +1,38 @@
+body{
+background-color:  beige;
+font-size: 12;
+padding: 5%;
+text-align: justify;
+justify-content: auto;
+}
+
+.titulo {
+  color:purple;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 24;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+#nombre {
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: beige;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  background-color: purple;
+font-size: 36;
+text-align: center;
+}
+
+.foto {
+  width: 10cm;
+  float: left;
+  margin-right: 10px;
+}
+.descripcion{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.marco{
+width: 
+}
