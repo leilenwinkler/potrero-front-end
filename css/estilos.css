@@ -1,9 +1,17 @@
 body{
 background-color:  beige;
+<!-- esto no queda lindo -->
+background-image: url(../imagenes/patron-cocina.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+<!-- no me gusta -->
 font-size: 12;
 padding: 5%;
 text-align: justify;
 justify-content: center;
+bottom: 5%;
 }
 
 .titulo {
@@ -27,6 +35,10 @@ text-align: center;
   width: 10cm;
   float: left;
   margin-right: 10px;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color:  #AF7AC5;
 }
 .descripcion{
   display: inline-block;
@@ -37,4 +49,12 @@ text-align: center;
 width:30%;
 height: auto;
 object-fit: scale-down;
+border-width: 10px;
+border-style: solid;
+border-radius: 10px;
+border-color:  #AF7AC5;
+display: inline-block;
+float: left;
+margin-right: 5%;
+margin-bottom: auto;
 }
