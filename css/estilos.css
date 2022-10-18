@@ -12,13 +12,13 @@ justify-content: auto;
   font-size: 24;
   text-decoration: underline;
   text-decoration-style: dotted;
+  margin-left: 40px;
 }
 #nombre {
   font-family: 'Fuzzy Bubbles', cursive;
   color: beige;
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  background-color: purple;
+  text-decoration: overline;
+  background-color: #AF7AC5;
 font-size: 36;
 text-align: center;
 }
@@ -34,5 +34,5 @@ text-align: center;
 }
 
 .marco{
-width: 
+width:
 }
