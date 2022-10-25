@@ -1,49 +1,99 @@
 body{
 background-color:  beige;
-font-size: 12;
 text-align: justify;
-justify-content: center;
-margin-bottom: 15%;
+margin-top: 0%;
 }
 
 header {
-  top: 0px;
-  height: 150px;
-  color: #AF7AC5;
-font-family: 'Fuzzy Bubbles', cursive;
+display: flex;
+  height: 200px;
+  width: 100%;
+  background-image: url(../imagenes/patron-cocina.png);
+}
+.logo{
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+
+}
+.nombre-pag{
+  width: 80%;
+  color: #7B249F;
+  font-family: 'Fredoka One', cursive;
   font-size: 150%;
   font-weight: bolder;
-  text-align: center;
-  background-image: url(../imagenes/patron-cocina.jpg);
+  text-shadow: 3px 2px 20px pink, 1px 1px 5px purple;
+display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caja-redes{
+  width: 25%;
+  display: flex;
+justify-content: flex-end;
+justify-content: space-around;
+align-self: flex-end;
 }
 
 nav  {
-  display: inline-block;
-  position: absolute;
-  left: 40%;
-  right: auto;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Ultra', serif;
 }
 .acceso-directo{
-  background-color: white;
+  background-color: #AF7AC5;
+  color: beige;
   padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
   border: 2px black solid;
 }
 
-#nombre {
-  font-family: 'Fuzzy Bubbles', cursive;
+article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.derecha {
+width: 70%;
+}
+
+.izquierda {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+aside {
+  font-family: 'Fredoka One', cursive;
+  color: #AF7AC5;
+}
+
+.titulo-entrada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Fredoka One', cursive;
   color: beige;
   text-decoration: overline;
   background-color: #AF7AC5;
 font-size: 36;
 text-align: center;
+
 }
 
 .titulo {
   color:purple;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: 'Ultra', serif;
   font-size: 24;
   text-decoration: underline;
-  text-decoration-style: dotted;
+  text-decoration-style: solid;
   margin-left: 40px;
 }
 
@@ -57,49 +107,60 @@ text-align: center;
   border-color:  #AF7AC5;
 }
 .descripcion{
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
 }
 
-section{
-  width: 600px;
+#saludo{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Fredoka One', cursive;
+  color: #7B249F;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.redes{
+  width: 30px;
 }
 
 .marco{
-width:30%;
+  width: 8cm;
 height: auto;
 object-fit: scale-down;
 border-width: 10px;
 border-style: solid;
 border-radius: 10px;
 border-color:  #AF7AC5;
-display: inline-block;
-float: left;
-margin-right: 5%;
-margin-left: 10%;
-margin-bottom: auto;
+
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
-#saludo{
-  text-align: center;
-  font-size: 20px;
-  font-style: italic;
-  font-weight: bold;
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
 }
 
-.redes{
-  width: 30px;
+.datos-desarrollador {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
 }
-footer{
-  bottom: 0px;
-  left: 700px;
+
+.de-donde-soy {
+width: 30%;
+display: flex;
+justify-content: flex-start;
 }
-.pie{
-  bottom: 0;
-}
+
 
 #wsp{
   position: fixed;
   bottom: 20px;
+  right:5px;
   width: 50px;
 }
