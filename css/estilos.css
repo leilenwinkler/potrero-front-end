@@ -68,7 +68,7 @@ nav  {
 article {
   box-sizing: border-box;
   padding-left: 1%;
-  
+
   width: 97vw;
   display: flex;
   justify-content: space-around;
@@ -169,6 +169,7 @@ border-color:  #AF7AC5;
 margin-top: 20px;
 margin-bottom: 20px;
 }
+
 .pasos{
   width: 60%;
   height: 5%;
