@@ -263,13 +263,17 @@ filter: drop-shadow(1px 1px 2px black);
   filter: drop-shadow(3px 2px 20px #7B249F);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
+
 header {
+  height: 20vh;
 flex-direction: column;}
 
 .nombre-pag{
   width: 100%;
-  font-size: 100%;}
+  font-size: 100%;
+display: flex;
+justify-content: center;}
 
 .izquierda {
   display: none;}
@@ -282,6 +286,85 @@ height: auto;
   float: none;
   display: flex;
   width: 100%;}
+}
+
+@media (max-width: 991px) {
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .derecha{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .izquierda{
+    width: 100%;
+  }
+  .titulo-izquierda{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  .pasos {
+  width: 26%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 5px;
+}
+.marco {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.de-donde-soy{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.redes-footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.datos-desarrollador{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
 }
 
 @media (min-width:700px) {
