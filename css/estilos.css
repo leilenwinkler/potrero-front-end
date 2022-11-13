@@ -61,11 +61,21 @@ nav  {
   padding: 5px;
   margin: 5px;
   border-radius: 10px;
-  border: 2px black solid;
+  border: 2px #7B249F solid;
 }
 
+.dropdown-menu {
+  background-color: transparent;
+  border-color: transparent;
+}
+.d-flex {
+  width: 50%;
+}
 .acceso-directo:hover {
   background-color: #7B249F;
+}
+a.nav-link.active.acceso-directo{
+    color: #48155e;
 }
 
 article {

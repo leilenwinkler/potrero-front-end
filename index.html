@@ -32,13 +32,38 @@
     </div>
 
 </header>
-<nav>
-  <a class="acceso-directo" href="index.html"> Inicio </a>
-  <a class="acceso-directo" href="contactos.html">Contactos</a>
-  <a class="acceso-directo" href="https://www.gallinablanca.es/receta/bulgogi-coreano/"target="_blank">Bulgogi</a>
-  <a class="acceso-directo" href="https://www.recepedia.com/es-ar/recetas/guiso/213125-kimchi-jjigae/"target="_blank">Kimchi-Jjigae</a>
-  <a class="acceso-directo" href="https://elgourmet.com/receta/pollo-coreano-frito"target="_blank">Pollo frito coreano </a>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;>
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active acceso-directo" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link acceso-directo" href="contactos.html">Contactos</a>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle acceso-directo" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Más Recetas
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>  <a class=" dropdown-item acceso-directo" href="https://www.gallinablanca.es/receta/bulgogi-coreano/"target="_blank">Bulgogi</a></li>
+            <li>  <a class=" dropdown-item acceso-directo" href="https://www.recepedia.com/es-ar/recetas/guiso/213125-kimchi-jjigae/"target="_blank">Kimchi-Jjigae</a></li>
+            <li>  <a class=" dropdown-item acceso-directo" href="https://elgourmet.com/receta/pollo-coreano-frito"target="_blank">Pollo frito coreano </a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-success acceso-directo" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
 </nav>
+
 <article>
   <div class="derecha">
       <main>
@@ -114,14 +139,13 @@
     <p class="saludo">Buen provecho :)</p>
     <!-- esto se va a ver sólo en celular-->
   </div>
-
-
 </article>
+
+
 <footer>
   <div class="de-donde-soy">
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3416.4229742296993!2d-60.09304888338929!3d-31.09797394864892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1666790416931!5m2!1ses-419!2sar" width="400" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-
   <div class="redes-footer">
       <a href="https://twitter.com/Leilenwinkler" target="_blank">
         <img class="redes" src="./imagenes/twitter.png" alt="Twitter"></a>
@@ -132,7 +156,6 @@
       <a href="https://youtu.be/WT6k3xjdoU4" target="_blank">
           <img class="redes" src="./imagenes/youtube.png" alt="YouTube"></a>
   </div>
-
   <div class="datos-desarrollador">
     <p>Página creada por: Leilén Winkler.
       <br>
@@ -141,7 +164,6 @@
       Helvecia, Santa Fe.</p>
   </div>
 </footer>
-
 
   <a href="https://wa.me/5493405451526?text=Hola" target="_blank" title="¡Escribinos!">
     <img class="wsp" src="./imagenes/whatsapp.png" alt="whatsapp">
