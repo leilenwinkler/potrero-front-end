@@ -220,6 +220,36 @@ margin-bottom: 20px;
 .redes:hover {
   width: 40px;
 }
+.row{
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+h5 {
+    font-family: 'Ultra', serif;
+    color: #4d1465;
+}
+
+.btn-primary {
+    --bs-btn-bg: #7b249f;
+    --bs-btn-border-color: #7b249f;
+    --bs-btn-hover-color: #fff;
+--bs-btn-hover-bg: #45105b;
+}
+
+.card {
+    padding-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #AF7AC5;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    filter: drop-shadow(1px 1px 2px purple);
+
+}
 
 footer {
   width: 98vw;
