@@ -6,6 +6,9 @@ function cambiarModo() {
   if (document.body.className === "dark") {
     document.getElementById("modo").innerHTML="Modo Soleado";
   }
+  else {
+    document.getElementById("modo").innerHTML="Modo Nocturno";
+  }
 }
 
 function datos(){
