@@ -5,6 +5,13 @@ background-color:  beige;
 font-family: 'Signika Negative', sans-serif;
 text-align: justify;
 margin-top: 0%;
+
+}
+
+body.dark {
+background-color: #18081F;
+color: beige;
+transition: 1s ease all;
 }
 
 header {
@@ -37,6 +44,11 @@ display: flex;
   align-items: center;
   justify-content: center;
 }
+body.dark .nombre-pag{
+  color: pink;
+  text-shadow: 3px 2px 20px purple, 1px 1px 5px pink;
+
+}
 
 .caja-redes {
   width: 20%;
@@ -64,6 +76,12 @@ nav  {
   border: 2px #7B249F solid;
 }
 
+body.dark .acceso-directo{
+ color: #18081F;
+  background-color: pink;
+  border: 2px pink solid;
+
+}
 .dropdown-menu {
   background-color: transparent;
   border-color: transparent;
@@ -72,6 +90,9 @@ nav  {
   width: 50%;
 }
 .acceso-directo:hover {
+  background-color: #7B249F;
+}
+body.dark .acceso-directo:hover {
   background-color: #7B249F;
 }
 a.nav-link.active.acceso-directo{
@@ -121,6 +142,11 @@ main {
   text-align: center;
 }
 
+body.dark .titulo-entrada{
+  color: #18081F;
+  background-color: pink;
+}
+
 .foto {
   width: 30vw;
   float: left;
@@ -130,6 +156,11 @@ main {
   border-radius: 10px;
   border-color:  #AF7AC5;
 }
+
+body.dark .foto{
+  border-color: pink;
+}
+
 .descripcion {
   display: flex;
   justify-content: flex-end;
@@ -154,6 +185,10 @@ section {
   margin-left: 40px;
 }
 
+body.dark .titulo{
+  color: pink;
+}
+
 aside {
   width: 100%;
   display: flex;
@@ -170,6 +205,10 @@ aside {
   margin-top: 5%;
   margin-left: 15%;
 
+}
+
+body.dark .titulo-izquierda {
+  color: pink;
 }
 
 .marco {
@@ -206,6 +245,11 @@ margin-bottom: 20px;
   font-style: italic;
 }
 
+body.dark .saludo {
+  color: #18081F;
+  background-color: pink;
+}
+
 .gif {
   height: 70vh;
   width: 100%;
@@ -219,6 +263,9 @@ margin-bottom: 20px;
 }
 .redes:hover {
   width: 40px;
+}
+body.dark .redes{
+  filter: drop-shadow(1px 1px 5px pink);
 }
 .row{
   margin-left: 1vw;
@@ -251,38 +298,31 @@ h5 {
 
 }
 
+body.dark .card{
+  color: #18081F;
+  background-color: pink;;
+}
+
 footer {
-  width: 98vw;
+  background-image: url(../imagenes/patron-cocina.png);
+  width: 100vw;
   height: 15vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding-top: 1vh;
 }
 
 .datos-desarrollador {
-  width: 300px;
+  width: 200px;
   display: flex;
   justify-items: center;
   flex-flow: column wrap;
   padding: 5px;
-  border-width: 10px;
-  border-style: solid;
-  border-radius: 10px;
-  border-color:  #AF7AC5;
   font-family: 'Fredoka One', cursive;
 font-size: 12px;
 
-}
-
-.de-donde-soy {
-width: 300px;
-display: flex;
-justify-content: flex-start;
-border-width: 10px;
-border-style: solid;
-border-radius: 10px;
-border-color:  #AF7AC5;
 }
 
 .redes-footer {
@@ -299,6 +339,10 @@ border-color:  #AF7AC5;
   width: 50px;
 filter: drop-shadow(1px 1px 2px black);
 }
+body.dark .wsp{
+  filter: drop-shadow(1px 1px 2px white);
+}
+
 .wsp:hover {
   filter: drop-shadow(3px 2px 20px #7B249F);
 }
